@@ -24,6 +24,12 @@ namespace Exe4_042
                 Console.WriteLine("Stack berlebih");
                 return;
             }
+            else
+            {
+                top++;
+                Console.WriteLine("Masukkan Element: ");
+                DEWO[top] = Console.ReadLine();
+            }
 
         }
         static void Main(string[] args)
