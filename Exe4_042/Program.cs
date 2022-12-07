@@ -58,11 +58,12 @@ namespace Exe4_042
                 {
                     Console.WriteLine("Item [" + (i + 1) + "]: " + DEWO[i]);
                 }
-            }
-            
+            }          
         }
         static void Main(string[] args)
         {
+            Stack s = new Stack();
+
         }
     }
 }
