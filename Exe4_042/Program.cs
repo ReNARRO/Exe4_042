@@ -45,6 +45,15 @@ namespace Exe4_042
                 return top;
             }
         }
+        public void display()
+        {
+            if(top == -1)
+            {
+                Console.WriteLine("Stacks is Empty");
+                return;
+            }
+            
+        }
         static void Main(string[] args)
         {
         }
