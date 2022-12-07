@@ -79,6 +79,13 @@ namespace Exe4_042
                     case '1':
                         s.push();
                         break;
+                    case '2':
+                        s.pop();
+                        break;
+                    case '3':
+                        s.display();
+                        break;
+
                 }
             }
         }
