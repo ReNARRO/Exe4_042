@@ -9,6 +9,9 @@ namespace Exe4_042
     class Stack
     {
         private String[] DEWO;
+        private int top;
+        private int max;
+
         static void Main(string[] args)
         {
         }
