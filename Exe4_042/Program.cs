@@ -38,7 +38,12 @@ namespace Exe4_042
                 Console.WriteLine("Stack tidak ada");
                 return -1;
             }
-            
+            else
+            {
+                Console.WriteLine("Memunculkan elements: " + DEWO[top]);
+                top--;
+                return top;
+            }
         }
         static void Main(string[] args)
         {
