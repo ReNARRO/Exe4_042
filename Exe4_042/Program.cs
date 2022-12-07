@@ -52,6 +52,13 @@ namespace Exe4_042
                 Console.WriteLine("Stacks is Empty");
                 return;
             }
+            else
+            {
+                for (int i = 0; i <= top; i++)
+                {
+                    Console.WriteLine("Item [" + (i + 1) + "]: " + DEWO[i]);
+                }
+            }
             
         }
         static void Main(string[] args)
