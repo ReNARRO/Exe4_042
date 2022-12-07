@@ -30,7 +30,15 @@ namespace Exe4_042
                 Console.WriteLine("Masukkan Element: ");
                 DEWO[top] = Console.ReadLine();
             }
-
+        }
+        public int pop()
+        {
+            if(top == -1)
+            {
+                Console.WriteLine("Stack tidak ada");
+                return -1;
+            }
+            
         }
         static void Main(string[] args)
         {
