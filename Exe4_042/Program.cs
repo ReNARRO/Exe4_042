@@ -17,6 +17,15 @@ namespace Exe4_042
             top = -1;
             max = DEWO.Length;
         }
+        public void push()
+        {
+            if(top == max - 1)
+            {
+                Console.WriteLine("Stack berlebih");
+                return;
+            }
+
+        }
         static void Main(string[] args)
         {
         }
